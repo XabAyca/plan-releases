@@ -33,14 +33,14 @@ load-time conflict detection.
 ### macOS — via Homebrew (recommended)
 
 ```bash
-brew tap XabAyca/plan https://github.com/XabAyca/plan-releases
-brew install --cask plan
+brew tap XabAyca/plan
+brew install --cask XabAyca/plan/plan
 ```
 
 Upgrade later with:
 
 ```bash
-brew update && brew upgrade --cask plan
+brew update && brew upgrade --cask XabAyca/plan/plan
 ```
 
 ### macOS — manual `.dmg`
